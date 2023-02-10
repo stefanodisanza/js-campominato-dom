@@ -3,8 +3,8 @@ const playButton = document.getElementById("play-button");
       let bombs = [];
 
       playButton.addEventListener("click", function() {
-        grid.innerHTML = ""; // reset the grid
-        bombs = []; // reset the bombs
+        grid.innerHTML = ""; // resetta grid
+        bombs = []; // resetta bombs
 
         for (let i = 1; i <= 100; i++) {
           const cell = document.createElement("div");
